@@ -1,0 +1,32 @@
+.lessons-list td {
+    padding: 8px;
+    border: 1px solid #212121;
+}
+body {
+    font-family: Cinzel;
+}
+.lessons-list > tr:hover {
+    background-color: black;
+    color: white;
+}
+
+.lessons-list :nth-child(1) {
+    background-color: red;
+}
+.lessons-list :nth-child(2) {
+    background-color: blueviolet;
+}
+
+.lessons-list :nth-child(3) {
+    background-color: gold;
+}
+.lessons-list :nth-child(4) {
+    background-color: rgba(0, 255, 55, 0.699);
+}
+
+.lessons-list :nth-child(5) {
+    background-color: rgb(0, 119, 255);
+}
+.lessons-list :nth-last-child(5) {
+    background-color: gray;
+}
